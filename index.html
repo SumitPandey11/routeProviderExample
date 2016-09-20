@@ -40,6 +40,24 @@
 
 
 
+<p>Then you must add the ngRoute as a dependency in the application module</p>
+
+<p><strong>angular.module("myApp", ["ngRoute"]);</strong></p>
+
+<p>Now your application has access to the route module, which provides the <strong>$routeProvider</strong>. Use the <strong>$routeProvider</strong> to configure different routes in your application:</p>
+
+<blockquote>
+<p><em>app.config(function($routeProvider) {</em>
+  <em>$routeProvider</em>
+  <em>.when("/", {</em>
+    <em>templateUrl : "main.html"</em>
+  <em>})</em>
+  <em>.when("/red", {</em>
+    <em>templateUrl : "red.html"</em>
+  <em>});</em>
+<em>});</em></p>
+</blockquote>
+
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
