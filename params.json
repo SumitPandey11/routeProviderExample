@@ -1,0 +1,6 @@
+{
+  "name": "Sumit - Routeproviderexample",
+  "tagline": "",
+  "body": "### Welcome Sumit Page.\r\nIf you want to navigate to different pages in your application, but you also want the application to be a SPA (Single Page Application), with no page reloading, you can use the ngRoute module. The ngRoute module routes your application to different pages without reloading the entire application.\r\n\r\nTo make your applications ready for routing, you must include the AngularJS Route module:\r\n<script src=\"http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js\"> </script>\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/sumitpandey11) and we’ll help you sort it out.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
